@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  color: white;
+}
+html,
+body {
+  font-family: azo-sans-web, sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+h1 {
+  font-family: azo-sans-web, sans-serif;
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 3rem;
+}
+p {
+  line-height: 1.5;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  color: white;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
