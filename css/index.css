@@ -174,7 +174,7 @@ img {
   padding-bottom: 3%;
   padding-left: 4%;
   padding-right: 3%;
-  background-color: #1fdae7;
+  background-color: #000014;
 }
 .nav-container #somnus {
   font-family: 'Pacifico', cursive;
@@ -193,6 +193,20 @@ img {
   margin-left: 2%;
   padding: 0;
 }
+@media (max-width: 1000px) {
+  .nav-container .classnav a {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 530px) {
+  .nav-container .classnav a {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
 .nav-container .classnav #sign-up {
   font-size: 2.4rem;
   width: 200px;
@@ -201,10 +215,16 @@ img {
   margin-left: 2%;
   padding-right: 5%;
   padding-left: 5%;
-  border: solid;
   border-radius: 4px;
-  background-color: black;
-  color: #1fdae7;
+  background-color: #000014;
+  color: #FFBA08;
+}
+@media (max-width: 1000px) {
+  .nav-container .classnav #sign-up {
+    width: 100%;
+    margin: 20px 5px;
+    align-content: center;
+  }
 }
 .nav-container .classnav #sign-in {
   font-size: 2.4rem;
@@ -214,20 +234,16 @@ img {
   margin-left: 2%;
   padding-right: 5%;
   padding-left: 5%;
-  border: black solid;
   border-radius: 4px;
-  color: black;
-  background-color: #1fdae7;
+  color: #FFBA08;
+  background-color: #000014;
   box-shadow: 0 12px 12px -15px black;
 }
 @media (max-width: 1000px) {
-  .nav-container .classnav {
-    display: none;
-  }
-}
-@media (max-width: 530px) {
-  .nav-container .classnav {
-    display: none;
+  .nav-container .classnav #sign-in {
+    width: 100%;
+    margin: 20px 5px;
+    align-content: center;
   }
 }
 .nav-container .tablet-and-mobile {
@@ -279,6 +295,16 @@ img {
     max-width: 100%;
   }
 }
+@media (max-width: 1000px) {
+  .nav-container img {
+    display: none;
+  }
+}
+@media (max-width: 530px) {
+  .nav-container img {
+    display: none;
+  }
+}
 .footer-container {
   display: flex;
   flex-direction: column;
@@ -301,7 +327,8 @@ img {
   padding-bottom: 3%;
   padding-left: 2%;
   padding-right: 2%;
-  background: #54C6EB;
+  background: #000014;
+  border-top: 2px solid goldenrod;
 }
 .footer-container .footer .classnav {
   width: 30%;
@@ -372,13 +399,13 @@ img {
 }
 .container {
   width: 100%;
-  background-color: #2ad3d3;
+  background-color: #000014;
 }
 .container .topdiv {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #2F6690;
+  background: #b38718;
   padding-top: 4%;
   padding-bottom: 8%;
   padding-left: 4%;
@@ -515,7 +542,7 @@ img {
   padding-top: 2%;
   padding-bottom: 2%;
   margin-bottom: 2%;
-  background-color: #2F6690;
+  background-color: #b38718;
   box-shadow: 0 12px 12px -15px black;
 }
 .container .one img {
@@ -562,7 +589,7 @@ img {
   padding-bottom: 4%;
   margin-top: 2%;
   margin-bottom: 2%;
-  background-color: #2F6690;
+  background-color: #b38718;
   box-shadow: 0 12px 12px -15px black;
 }
 .container .two img {
@@ -620,7 +647,7 @@ img {
   padding-bottom: 2%;
   margin-top: 2%;
   margin-bottom: 2%;
-  background-color: #2F6690;
+  background-color: #b38718;
   box-shadow: 0 12px 12px -15px black;
 }
 .container .three img {
@@ -666,7 +693,7 @@ img {
   padding-top: 3%;
   padding-bottom: 3%;
   margin-top: 2%;
-  background-color: #2F6690;
+  background-color: #b38718;
   box-shadow: 0 12px 12px -15px black;
 }
 .container .four p {
@@ -728,7 +755,7 @@ img {
   border: none;
   border-radius: 6px;
   color: white;
-  background-color: #2F6690;
+  background-color: #b38718;
   box-shadow: 0 12px 12px -15px black;
 }
 @media (max-width: 1000px) {
@@ -781,7 +808,7 @@ img {
   }
 }
 body {
-  background: #40f4fa;
+  background: #000014;
   width: 95%;
   margin: 0 auto;
 }
