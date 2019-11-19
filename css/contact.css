@@ -274,7 +274,7 @@ img {
   }
 }
 @media (max-width: 530px) {
-  .nav-container {
+  .nav-container .tablet-and-mobile {
     padding-top: 10%;
     max-width: 100%;
   }

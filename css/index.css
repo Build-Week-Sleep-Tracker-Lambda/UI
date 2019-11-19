@@ -274,7 +274,7 @@ img {
   }
 }
 @media (max-width: 530px) {
-  .nav-container {
+  .nav-container .tablet-and-mobile {
     padding-top: 10%;
     max-width: 100%;
   }
@@ -782,34 +782,32 @@ img {
 }
 body {
   background: #40f4fa;
+  width: 95%;
+  margin: 0 auto;
 }
 body .topdiv {
-  border: 1px solid red;
   margin: 10px ;
 }
 body .ppl {
-  border: 1px solid red;
   margin: 10px ;
 }
 body .teammembers {
-  border: 1px solid red;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 10px 10px;
 }
-body .teammembers .cardContainer1,
-body .teammembers .cardContainer2,
-body .teammembers .cardContainer3 {
-  display: flex;
-  justify-content: space-between;
-}
 body .teammembers .card {
   width: 35%;
-  margin: 2em;
+  margin: 50px auto;
+  text-align: center;
 }
-body footer {
-  border: 1px solid red;
+body .teammembers .card img {
+  width: 300px;
+}
+body .teammembers .card a {
+  font-size: 2rem;
 }
 body .toptwo {
   display: flex;
