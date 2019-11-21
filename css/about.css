@@ -1,0 +1,40 @@
+body {
+  background: #000014;
+  width: 95%;
+  margin: 0 auto;
+}
+body .topdiv {
+  margin: 10px ;
+}
+body .ppl {
+  margin: 10px ;
+}
+body .teammembers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 10px;
+}
+body .teammembers .card {
+  width: 35%;
+  margin: 50px auto;
+  text-align: center;
+}
+body .teammembers .card img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+body .teammembers .card h2 {
+  margin-bottom: 20px;
+}
+body .teammembers .card a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+body .toptwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

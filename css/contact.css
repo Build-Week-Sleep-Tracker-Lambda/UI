@@ -174,7 +174,7 @@ img {
   padding-bottom: 3%;
   padding-left: 4%;
   padding-right: 3%;
-  background-color: #1fdae7;
+  background-color: #000014;
 }
 .nav-container #somnus {
   font-family: 'Pacifico', cursive;
@@ -193,6 +193,20 @@ img {
   margin-left: 2%;
   padding: 0;
 }
+@media (max-width: 1000px) {
+  .nav-container .classnav a {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 530px) {
+  .nav-container .classnav a {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
 .nav-container .classnav #sign-up {
   font-size: 2.4rem;
   width: 200px;
@@ -201,10 +215,16 @@ img {
   margin-left: 2%;
   padding-right: 5%;
   padding-left: 5%;
-  border: solid;
   border-radius: 4px;
-  background-color: black;
-  color: #1fdae7;
+  background-color: #000014;
+  color: #FFBA08;
+}
+@media (max-width: 1000px) {
+  .nav-container .classnav #sign-up {
+    width: 100%;
+    margin: 20px 5px;
+    align-content: center;
+  }
 }
 .nav-container .classnav #sign-in {
   font-size: 2.4rem;
@@ -214,20 +234,16 @@ img {
   margin-left: 2%;
   padding-right: 5%;
   padding-left: 5%;
-  border: black solid;
   border-radius: 4px;
-  color: black;
-  background-color: #1fdae7;
+  color: #FFBA08;
+  background-color: #000014;
   box-shadow: 0 12px 12px -15px black;
 }
 @media (max-width: 1000px) {
-  .nav-container .classnav {
-    display: none;
-  }
-}
-@media (max-width: 530px) {
-  .nav-container .classnav {
-    display: none;
+  .nav-container .classnav #sign-in {
+    width: 100%;
+    margin: 20px 5px;
+    align-content: center;
   }
 }
 .nav-container .tablet-and-mobile {
@@ -274,9 +290,19 @@ img {
   }
 }
 @media (max-width: 530px) {
-  .nav-container {
+  .nav-container .tablet-and-mobile {
     padding-top: 10%;
     max-width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .nav-container img {
+    display: none;
+  }
+}
+@media (max-width: 530px) {
+  .nav-container img {
+    display: none;
   }
 }
 .contact-container {
@@ -376,7 +402,8 @@ img {
   padding-bottom: 3%;
   padding-left: 2%;
   padding-right: 2%;
-  background: #54C6EB;
+  background: #000014;
+  border-top: 2px solid goldenrod;
 }
 .footer-container .footer .classnav {
   width: 30%;
